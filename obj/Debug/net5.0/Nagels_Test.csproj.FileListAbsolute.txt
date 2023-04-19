@@ -1,0 +1,16 @@
+/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/obj/Debug/net5.0/Nagels_Test.csproj.AssemblyReference.cache
+/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/obj/Debug/net5.0/Nagels_Test.GeneratedMSBuildEditorConfig.editorconfig
+/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/obj/Debug/net5.0/Nagels_Test.AssemblyInfoInputs.cache
+/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/obj/Debug/net5.0/Nagels_Test.AssemblyInfo.cs
+/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/obj/Debug/net5.0/Nagels_Test.csproj.CoreCompileInputs.cache
+/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/bin/Debug/net5.0/Nagels_Test
+/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/bin/Debug/net5.0/Nagels_Test.deps.json
+/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/bin/Debug/net5.0/Nagels_Test.runtimeconfig.json
+/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/bin/Debug/net5.0/Nagels_Test.runtimeconfig.dev.json
+/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/bin/Debug/net5.0/Nagels_Test.dll
+/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/bin/Debug/net5.0/Nagels_Test.pdb
+/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/obj/Debug/net5.0/Nagels_Test.dll
+/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/obj/Debug/net5.0/refint/Nagels_Test.dll
+/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/obj/Debug/net5.0/Nagels_Test.pdb
+/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/obj/Debug/net5.0/Nagels_Test.genruntimeconfig.cache
+/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/obj/Debug/net5.0/ref/Nagels_Test.dll

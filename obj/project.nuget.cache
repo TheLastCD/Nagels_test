@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZNQ10qUQdbXOVityamTSYCtSm4beS++2g1vgrIvQAvOLKgmvoz2WFQAxZSWfOjfQDjEdYT4FfywNnugoZWqvxQ==",
+  "success": true,
+  "projectFilePath": "/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/Nagels_Test.csproj",
+  "expectedPackageFiles": [
+    "/Users/charlie/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.17/microsoft.netcore.app.host.osx-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
