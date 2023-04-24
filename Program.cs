@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 namespace Nagels_Test
 {
     class Program
@@ -18,9 +19,12 @@ namespace Nagels_Test
     //     all 4 bools/TextA                                                      /ShortA/DateTimeA
     class HexDecode
     {
-        public List<char> data;
-        public List<List<char>> split = new List<List<char>>();
+        private List<char> data;
+        private List<List<char>> split = new List<List<char>>();
         public List<bool> bitABCD = new List<bool>();
+        public string TextA = "EMPTY";
+        public short ShortA;
+        public DateTime DateTimeA = new DateTime(1000, 1, 1);
         
         public HexDecode(string unedited){
             string[] x = unedited.Split(' ');
@@ -32,6 +36,9 @@ namespace Nagels_Test
             }
             Splitter();
             BoolConn();
+            TextConn(String.Join("", split[1]));
+            ShortConn(String.Join("",split[2]));
+            DateConn(Numconn(String.Join("",split[3])));
         }
 
         // For splitting and appropriately formatting the input into:
@@ -63,17 +70,27 @@ namespace Nagels_Test
             foreach(char x in binarystring.ToCharArray()){ bitABCD.Add(Convert.ToBoolean(Convert.ToInt32(new string(x, 1))));}
         }
         //convert hex to text
-        public void TextConn(){
+        public void TextConn(string hex){
+            byte[] raw = new byte[hex.Length / 2];
+            for (int i = 0; i < raw.Length; i++)
+            {
+                raw[i] = Convert.ToByte(hex.Substring(i * 2, 2), 16);
+            }
+            TextA = Encoding.ASCII.GetString(raw);
+        }
 
+        public int Numconn(string value){
+            return int.Parse(value, System.Globalization.NumberStyles.HexNumber);
         }
         //convert hext to short
-        public void ShortConn(){
-
+        public void ShortConn(string x){
+            ShortA = Convert.ToInt16(x, 16);
         }
         //convert and calculate date
         //adds number of days from 01/01/1000
-        public void DateConn(){
-
+        public void DateConn(int DayAddition){
+            
+            DateTimeA = DateTimeA.Add(new TimeSpan(DayAddition,0,0,0));
         }
     }
 }
