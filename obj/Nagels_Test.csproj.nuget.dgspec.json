@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/Nagels_Test.csproj": {}
+    "/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_test/Nagels_Test.csproj": {}
   },
   "projects": {
-    "/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/Nagels_Test.csproj": {
+    "/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_test/Nagels_Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/Nagels_Test.csproj",
+        "projectUniqueName": "/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_test/Nagels_Test.csproj",
         "projectName": "Nagels_Test",
-        "projectPath": "/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/Nagels_Test.csproj",
+        "projectPath": "/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_test/Nagels_Test.csproj",
         "packagesPath": "/Users/charlie/.nuget/packages/",
-        "outputPath": "/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_Test/obj/",
+        "outputPath": "/Users/charlie/Documents/CVs and stuff/Tests/Nagels/Nagels_test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/charlie/.nuget/NuGet/NuGet.Config"
